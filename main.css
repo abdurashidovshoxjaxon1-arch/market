@@ -1,0 +1,455 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1210px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+.btn1 {
+  border: none;
+  background-color: white;
+}
+.qwer {
+  display: flex;
+  gap: 15px;
+}
+.father {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.tt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+.dd {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  gap: 15px;
+  margin-bottom: 0;
+}
+a {
+  text-decoration-line: none;
+  color: #000;
+}
+.input-search {
+  width: 700px;
+  height: 60px;
+}
+
+.knopka {
+  width: 60px;
+  height: 60px;
+  background-color: lightgray;
+  position: relative;
+}
+.knopka img {
+  position: absolute;
+  top: 3px;
+  left: 19px;
+}
+.knopka2 {
+  width: 213px;
+  height: 50px;
+  border-radius: 50px;
+}
+.bola {
+  list-style-type: none;
+  margin-left: 0;
+  margin-top: 30px;
+  display: flex;
+  gap: 40px;
+
+  align-items: center;
+}
+.btn6 {
+  background-color: rgba(240, 250, 255, 1);
+  color: rgba(53, 175, 160, 1);
+  border: rgba(53, 175, 160, 1);
+  padding: 10px 40px;
+  border-radius: 40px;
+  margin-left: 70px;
+}
+
+.hhh {
+  font-family: Dosis;
+  font-weight: 600;
+  font-style: SemiBold;
+  font-size: 36px;
+
+  line-height: 54px;
+  letter-spacing: -0.1px;
+  vertical-align: middle;
+  color: red;
+}
+.card5 {
+  background: url("./images/slider-image-3.jpg.svg") no-repeat center / cover;
+  padding: 40px;
+  border-radius: 7px;
+}
+.sunnat {
+  margin-top: 40px;
+}
+.card7 {
+  width: 213px;
+  padding: 20px;
+  border: 1px solid black;
+  text-align: center;
+  position: relative;
+}
+.imgs {
+  width: 100%;
+}
+.brother {
+  display: flex;
+  margin-top: 50px;
+}
+.sssss {
+  color: rgba(0, 184, 83, 1);
+  text-align: center;
+}
+.cardcha {
+  background: url("./images/bacola-banner-07.jpg.svg") no-repeat center / cover;
+  width: 570px;
+  padding: 50px 40px;
+  border-radius: 10px;
+  margin: 40px;
+}
+.font {
+  font-family: Inter;
+  font-weight: 600;
+  font-style: Semi Bold;
+  font-size: 28px;
+
+  line-height: 33.6px;
+  letter-spacing: -0.8px;
+  vertical-align: middle;
+  text-align: left;
+}
+.dddddd {
+  color: rgba(155, 155, 180, 1);
+  text-align: left;
+}
+.cardbek {
+  background: url("./images/bacola-banner-08.jpg.svg") no-repeat center / cover;
+  width: 570px;
+  padding: 50px 40px;
+  border-radius: 10px;
+  margin: 40px;
+}
+.sister {
+  display: flex;
+}
+.dokon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.car00 {
+  width: 225px;
+  height: 241px;
+  padding: 20px;
+  border: 1px solid rgb(10, 10, 10);
+}
+.ssss {
+  text-align: center;
+}
+.cl {
+  text-align: center;
+}
+.bt {
+  background-color: rgba(53, 175, 160, 1);
+  width: 45px;
+  border-radius: 4px;
+  border: none;
+  padding: 2px;
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  color: white;
+}
+.before-img {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.before-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 50px;
+  height: 50px;
+
+  background-image: url("img/icon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.im {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.im::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 50px;
+  height: 50px;
+
+  background-image: url("img/icon.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sisterr {
+  background: url("./images/bacola-banner-09.jpg.svg") no-repeat center / cover;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex-shrink: 0;
+}
+.brotherr {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.rrr {
+  display: flex;
+  position: relative;
+}
+.rrr::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 32px;
+
+  width: 50px;
+  height: 50px;
+
+  background-image: url("./images/Link.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.reg {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.big-box {
+  display: flex;
+}
+.gugu {
+  display: flex;
+  justify-content: center;
+}
+.bacround {
+  background: url("./images/bacola-banner-05.jpg\ \(1\).svg") no-repeat center /
+    cover;
+  width: 370px;
+  border-radius: 15px;
+  padding: 30px 40px;
+}
+.cb {
+  color: rgba(0, 184, 83, 1);
+}
+.round-2 {
+  background: url("./images/bacola-banner-06.jpg.svg") no-repeat center / cover;
+}
+.bacround-father {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.round-3 {
+  background: url("./images/bacola-banner-10.jpg.svg") no-repeat center / cover;
+}
+.bgb {
+  border-radius: 15px;
+}
+.box {
+  width: 370px;
+}
+.shoh {
+  align-items: center;
+  padding: 90px 60px;
+}
+
+.kia {
+  padding: 10px 40px;
+  border-radius: 9px;
+  border: none;
+}
+.btn {
+  padding: 10px 40px;
+  border-radius: 9px;
+}
+.ezdin {
+  color: white;
+}
+.dfdf {
+  display: flex;
+  align-items: center;
+}
+.rrr {
+  position: absolute;
+  bottom: 0;
+  left: 600px;
+}
+.krisa {
+  position: relative;
+  background-color: #35afa0;
+}
+
+.everyday {
+  padding-top: 15px;
+  padding-left: 8px;
+}
+
+.suuu {
+  position: relative;
+}
+/* NEWSLETTER */
+.newsletter {
+  background: #2fa79a;
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.newsletter-content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.newsletter h2 {
+  font-size: 32px;
+  margin: 10px 0;
+}
+
+.small-text {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.desc {
+  margin-bottom: 20px;
+}
+
+.subscribe-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.subscribe-box input {
+  padding: 12px;
+  width: 300px;
+  border: none;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.subscribe-box button {
+  padding: 12px 20px;
+  border: none;
+  background: white;
+  color: #2fa79a;
+  font-weight: bold;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-box button:hover {
+  background: #eee;
+}
+
+/* FEATURES */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+/* FOOTER */
+.footer {
+  background: #fff;
+  padding: 40px 20px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.footer h4 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.footer ul li:hover {
+  color: #2fa79a;
+}
+
+/* BOTTOM */
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #eee;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+.phone span {
+  font-size: 12px;
+  color: #888;
+}
+
+.store-buttons button {
+  margin-left: 10px;
+  padding: 8px 15px;
+  border: none;
+  background: #000;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+  margin-top: 20px;
+}
