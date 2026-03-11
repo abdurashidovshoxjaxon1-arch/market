@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .container {
-  max-width: 1210px;
+  width: 1170px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -24,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 40px;
+  gap: 11px;
 }
 .dd {
   display: flex;
@@ -96,7 +96,7 @@ a {
   margin-top: 40px;
 }
 .card7 {
-  width: 213px;
+  width: 210px;
   padding: 20px;
   border: 1px solid black;
   text-align: center;
@@ -223,7 +223,6 @@ a {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
 }
 .rrr {
   display: flex;
@@ -294,7 +293,6 @@ a {
   border: none;
 }
 .btn {
-  padding: 10px 40px;
   border-radius: 9px;
 }
 .ezdin {
@@ -478,13 +476,14 @@ body {
   align-items: center;
   padding: 20px;
   border-radius: 15px;
-  background: url("./bacola-banner-05.jpg.png") no-repeat center / cover;
+  background: url("./images/bacola-banner-05.jpg.svg") no-repeat center / cover;
 }
 .banner-2 {
-  background: url("./bacola-banner-10.jpg.svg") no-repeat center / cover;
+  background: url("./images/bacola-banner-10.jpg.svg") no-repeat center / cover;
 }
 .banner-3 {
-  background: url("./bacola-banner-06.jpg\ \(1\).svg") no-repeat center / cover;
+  background: url("./images/bacola-banner-06.jpg\ \(1\).svg") no-repeat center /
+    cover;
 }
 .banner img {
   width: 120px;
@@ -574,12 +573,15 @@ body {
   padding: 30px;
   border-radius: 15px;
   text-align: right;
-  background: url("./home-banner-15.jpg.svg") no-repeat center / cover;
+  background: url("./images/6d353afbec287bc206ac8c247db6fc17a8465fa9.png")
+    no-repeat center / cover;
 }
 .card-2 {
-  background: url("./home-banner-16.jpg.svg") no-repeat center / cover;
+  background: url("./images/home-banner-16.jpg.svg") no-repeat center / cover;
 }
-.btn7 {
+.btn8 {
+  width: 158px;
+  align-self: self-end;
   color: white;
   background-color: rgba(35, 58, 149, 1);
 }
@@ -603,39 +605,124 @@ button {
   cursor: pointer;
   margin-top: 15px;
 }
-
-@media (max-width: 768px) {
-  body {
-    padding: 15px;
-  }
-
-  .top-section {
-    flex-direction: column;
-  }
-
-  .bottom-section {
-    flex-direction: column;
-  }
-
-  .banner-left,
-  .banner-right,
-  .card {
-    padding: 20px;
-  }
-
-  .banner-left h1 {
-    font-size: 24px;
-  }
-
-  .banner-right h1 {
-    font-size: 22px;
-  }
-
-  .card h2 {
-    font-size: 18px;
-  }
-
-  button {
-    width: 100%;
-  }
+.btn {
+  margin-top: 0;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.view {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+.con {
+  margin-bottom: 30px;
+}
+.grid {
+  display: flex;
+  gap: 20px;
+}
+
+.banner1 {
+  background: url("./images/55d0d1a8756777034a0f1e9a3a4979fb9d1eb9ce.png")
+    no-repeat center / cover;
+  padding: 30px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner1 button {
+  width: 150px;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 20px;
+}
+.gggg {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.card1 {
+  width: 180px;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.card1 img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.stock {
+  color: green;
+  font-size: 12px;
+  margin: 5px 0;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+.banner-top h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+
+.categories ul {
+  list-style: none;
+}
+
+.categories li {
+  margin-bottom: 10px;
+  color: #555;
+  cursor: pointer;
+}
+
+.categories li:hover {
+  color: #2563eb;
+}
+
+.view-link {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+.dddd {
+  display: flex;
+  flex-direction: column;
+}
+/* Responsive */
+
+
+
