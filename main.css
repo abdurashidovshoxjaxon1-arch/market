@@ -754,6 +754,13 @@ body {
 /* ===== TELEFON RESPONSIVE ===== */
 @media only screen and (max-width: 376px) {
   /* header */
+  .cardbek {
+    width: 300px;
+  }
+  .cardcha {
+    width: 300px;
+  }
+
   .father {
     display: flex;
     flex-direction: column;
@@ -865,6 +872,7 @@ body {
   } */
 
   /* HEADER */
+
   .father {
     display: flex;
     flex-direction: column;
