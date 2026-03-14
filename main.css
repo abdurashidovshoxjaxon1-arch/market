@@ -864,6 +864,31 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .reg {
+    display: flex;
+    flex-direction: column;
+  }
+  .brotherr {
+    display: flex;
+    flex-direction: column;
+  }
+  .dokon {
+    display: flex;
+    flex-direction: column;
+  }
+  .gugu {
+    display: flex;
+    flex-direction: column;
+  }
+  .box {
+    width: 300px;
+  }
+  .cardcha {
+    margin-left: 0;
+  }
+  .cardbek {
+    margin-left: 0;
+  }
 }
 
 @media only screen and (max-width: 376px) {
