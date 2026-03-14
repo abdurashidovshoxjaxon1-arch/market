@@ -71,7 +71,9 @@ a {
   border-radius: 40px;
   margin-left: 70px;
 }
-
+.suuu {
+  background: url("./images/Background.svg") no-repeat center / cover;
+}
 .hhh {
   font-family: Dosis;
   font-weight: 600;
@@ -346,12 +348,13 @@ a {
 .subscribe-box {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  align-items: center;
 }
 
 .subscribe-box input {
   padding: 12px;
   width: 300px;
+  margin-top: 14px;
   border: none;
   border-radius: 5px 0 0 5px;
   outline: none;
@@ -885,7 +888,10 @@ body {
     font-size: 11px;
     gap: 4px;
   }
-
+  .ded {
+    width: 300px;
+    height: 300px;
+  }
   nav {
     display: flex;
     flex-direction: column;
