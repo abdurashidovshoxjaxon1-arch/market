@@ -95,11 +95,15 @@ a {
 }
 .card7 {
   width: 210px;
-  padding: 20px;
+  margin: 10px;
   border: 1px solid black;
   text-align: center;
   position: relative;
 }
+.ster {
+  margin-left: 70px;
+}
+
 .imgs {
   width: 100%;
 }
@@ -654,15 +658,15 @@ button {
   gap: 10px;
 }
 .card1 {
-  width: 180px;
+  width: 200px;
   text-align: center;
-  padding: 15px;
+
   border: 1px solid #eee;
   border-radius: 8px;
 }
 
 .card1 img {
-  width: 100px;
+  width: 200px;
   margin-bottom: 10px;
 }
 
@@ -753,7 +757,9 @@ body {
   color: white;
   font-size: 50px;
 }
-
+.card7:hover {
+  background-color: #adadad;
+}
 /* ===== TELEFON RESPONSIVE ===== */
 @media only screen and (max-width: 376px) {
   /* header */
